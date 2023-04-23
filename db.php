@@ -39,7 +39,7 @@ if (isset($_POST['signup'])) {
         // Sign up successful
         session_start();
         $_SESSION['username'] = $username2;
-        header("Location: index.php");
+        header("Location: index.html");
         exit();
     } else {
         // Sign up failed
